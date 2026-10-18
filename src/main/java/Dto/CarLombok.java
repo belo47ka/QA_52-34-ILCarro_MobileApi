@@ -1,10 +1,8 @@
-package dto;
+package Dto;
 
 
 import lombok.*;
-import utils.enums.Fuel;
 
-import java.lang.reflect.Field;
 
 @Getter
 @Setter
@@ -18,7 +16,7 @@ public class CarLombok {
     private String manufacture;
     private String model;
     private String year;
-    private Fuel fuel;
+    private String fuel;
     private Integer seats;
     private String carClass;
     private String carRegistrationNumber;
